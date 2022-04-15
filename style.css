@@ -1,0 +1,21 @@
+body{
+    padding-top: 4.5rem;
+}
+
+.intro-section{
+    background-color: blueviolet;
+    padding: 8rem 0 0 0;
+}
+
+.display-2--description {
+    font-size: 1.4rem;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+.footer-sm{
+    background-color: #710193;
+    color: #ffef78;
+}
