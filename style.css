@@ -4,7 +4,7 @@ body{
 
 .intro-section{
     background-color: blueviolet;
-    padding: 8rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 
 .display-2--description {
@@ -15,7 +15,17 @@ body{
     max-height: 39rem;
 }
 
+.section-quienes{
+    text-align: center;
+}
+
 .footer-sm{
     background-color: #710193;
     color: #ffef78;
+}
+
+@media (min-width: 768px){
+    .title-index{
+    text-align: start;
+    }
 }

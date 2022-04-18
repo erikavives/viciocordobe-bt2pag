@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/logochico.png" type="image/x-icon">
+    <title>Viciocordobé</title>
         <!--google front-->
         <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
         <!--font awesome-->
@@ -26,7 +27,7 @@
                 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                         <a class="navbar-brand" href="/"
-                        ><img src="img/logochico.png" class="img-fluid" alt="viciocordobe"/></a>
+                        ><a href="index.html"> <img class="img-logo" src="img/logochico.png"alt="">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -36,7 +37,7 @@
                                 <a class="nav-link" aria-current="page" href="index.html" >Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="noticias.html">Noticias</a>
+                                <a class="nav-link" href="noticias.html">Noticias</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="review.html">Review</a>
@@ -45,7 +46,7 @@
                                 <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link active" href="contacto.html">Contacto</a>
                             </li>
                             </ul>
                         </div>
@@ -57,10 +58,23 @@
     </header>
     <main>
 <!--Section-->
-<section class="intro-section">
-
+<section class="intro-section py-5">
+    <div class="container">
+        <h1>Contacto</h1>
+        <form action="">
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="ingrese aqui su email" aria-describedby="emailHelp" required>
+            <div class="form-text text-light" id="emailHelp">No compartiremos tu email con nadie.</div>
+          </div>
+          <div class="mb-3">
+            <label for="contraseña" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="contraseña" placeholder="ingrese aqui su contraseña" required>
+          </div>
+          <button class="btn btn-primary w-100" type="submit">Enviar</button>
+        </form>
+      </div>
 </section>
-
     </main>
 <!--Footer-->
 <footer class="footer pt-3 bg-dark">
