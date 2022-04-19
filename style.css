@@ -7,6 +7,9 @@ body{
     padding: 4rem 0 0 0;
 }
 
+.title-index{
+    padding-left: 8vw;
+}
 .display-2--description {
     font-size: 1.4rem;
 }
@@ -23,9 +26,16 @@ body{
     background-color: #710193;
     color: #ffef78;
 }
+.title-copy{
+    color: #ffef78;
+}
 
-@media (min-width: 768px){
+@media(max-width:780px){
     .title-index{
-    text-align: start;
+        text-align: center;
+        padding-left: 0vw;
+    }
+    .nav-link:hover{
+        color: #ffd031;
     }
 }
