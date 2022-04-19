@@ -1,5 +1,6 @@
 body{
     padding-top: 4.5rem;
+    font-family: 'Bungee', cursive;
 }
 
 .intro-section{
@@ -18,9 +19,15 @@ body{
     max-height: 39rem;
 }
 
+
+.navbar-nav .nav-item:hover .nav-link {
+    color:#710193;
+}
+
 .section-quienes{
     text-align: center;
 }
+
 
 .footer-sm{
     background-color: #710193;
@@ -35,7 +42,4 @@ body{
         text-align: center;
         padding-left: 0vw;
     }
-    .nav-link:hover{
-        color: #ffd031;
     }
-}
